@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `tutorial`,
+    title: `Öğrenmek yaparak olur`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
