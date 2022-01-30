@@ -21,7 +21,7 @@ const IndexPage = () => {
       </p>
       <StaticImage
         alt="Ata"
-        src="https://drive.google.com/file/d/10RPYKY6PSbghfxBJ_ytL1oIyFVGEC6MD/view?usp=sharing"
+        src="https://drive.google.com/file/d/10RPYKY6PSbghfxBJ_ytL1oIyFVGEC6MD/view"
       />
     </Layout>
   )
