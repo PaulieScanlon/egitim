@@ -21,7 +21,7 @@ const IndexPage = () => {
       </p>
       <StaticImage
         alt="Güven Anıtı"
-        src="https://docs.google.com/presentation/d/1weVkYZ4Xkd7EcVX8qju0ht82LPcvehtawj4BP2jLhVA/edit?usp=sharing"
+        src="https://drive.google.com/file/d/10RPYKY6PSbghfxBJ_ytL1oIyFVGEC6MD/view?usp=sharing"
       />
     </Layout>
   )
