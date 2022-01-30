@@ -20,8 +20,8 @@ const IndexPage = () => {
         <p> *bilgisayar değil, bilgi soyuttur sayılamaz!</p>
       </p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
+        alt="Güven Anıtı"
+        src="https://docs.google.com/presentation/d/1weVkYZ4Xkd7EcVX8qju0ht82LPcvehtawj4BP2jLhVA/edit?usp=sharing"
       />
     </Layout>
   )
