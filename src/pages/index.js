@@ -17,12 +17,11 @@ const IndexPage = () => {
           paylaşmaktayım. Çizgim Atatürk çizgisidir, ikinci vazifemiz devrimleri
           Anadolu'ya yaymaktır.
         </p>
-        <p> *bilgisayar değil, bilgi soyuttur sayılamaz!</p>
+        <p> *bilgisayar değil, bilgi soyuttur sayılamaz</p>
       </p>
       <StaticImage
-        alt="Clifford, a reddish-brown pitbull, posing on a couch and looking stoically at the camera"
-        src="https://pbs.twimg.com/media/E1oMV3QVgAIr1NT?format=jpg&name=large"
-      />
+        alt="Ata"
+        src="https://drive.google.com/file/d/10RPYKY6PSbghfxBJ_ytL1oIyFVGEC6MD/view?usp=sharing"
       />
     </Layout>
   )
