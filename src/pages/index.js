@@ -20,7 +20,7 @@ const IndexPage = () => {
         <p> *bilgisayar değil, bilgi soyuttur sayılamaz!</p>
       </p>
       <StaticImage
-        alt="Güven Anıtı"
+        alt="Ata"
         src="https://drive.google.com/file/d/10RPYKY6PSbghfxBJ_ytL1oIyFVGEC6MD/view?usp=sharing"
       />
     </Layout>
