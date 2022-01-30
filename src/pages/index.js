@@ -19,7 +19,10 @@ const IndexPage = () => {
         </p>
         <p> *bilgisayar değil, bilgi soyuttur sayılamaz</p>
       </p>
-      <StaticImage alt="Ata" src="https://picsum.photos/id/1025/600/400" />
+      <StaticImage
+        alt="Zuzu ve Kemal"
+        src="/home/kemal/egitim/src/images/ZuzuKemal.jpg"
+      />
     </Layout>
   )
 }
