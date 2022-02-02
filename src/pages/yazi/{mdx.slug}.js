@@ -13,7 +13,10 @@ const YaziPost = ({ data }) => {
 }
 export const query = graphql`
   query ($id: String) {
-    mdx(id: { eq: $id }) {
+    allMdx(filter: { fileAbsolutePath: { regex: "//blog//" } }) {
+      nodes {
+        fileAbsolutePath
+      }
       frontmatter {
         title
         date(formatString: "D MMMM YYYY", locale: "tr")
