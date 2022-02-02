@@ -12,7 +12,7 @@ const YaziPost = ({ data }) => {
   )
 }
 export const query = graphql`
-  query ($id: String) {
+  query {
     allMdx(filter: { fileAbsolutePath: { regex: "//yazi//" } }) {
       nodes {
         fileAbsolutePath

@@ -12,7 +12,7 @@ const BlogPost = ({ data }) => {
   )
 }
 export const query = graphql`
-  query ($id: String) {
+  query {
     allMdx(filter: { fileAbsolutePath: { regex: "//blog//" } }) {
       nodes {
         fileAbsolutePath
