@@ -19,6 +19,7 @@ const Layout = ({ pageTitle, children }) => {
       }
     }
   `)
+
   return (
     <div className={container}>
       <title>
@@ -29,22 +30,17 @@ const Layout = ({ pageTitle, children }) => {
         <ul className={navLinks}>
           <li className={navLinkItem}>
             <Link to="/" className={navLinkText}>
-              Ana Sayfa
+              Home
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/about" className={navLinkText}>
-              Hakkımda
+              About
             </Link>
           </li>
           <li className={navLinkItem}>
             <Link to="/blog" className={navLinkText}>
               Blog
-            </Link>
-          </li>
-          <li className={navLinkItem}>
-            <Link to="/yazi" className={navLinkText}>
-              Görüşler
             </Link>
           </li>
         </ul>

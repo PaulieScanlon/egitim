@@ -11,13 +11,13 @@ module.exports = {
         path: `${__dirname}/blog/`,
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `yazi`,
-        path: `${__dirname}/yazi/`,
-      },
-    },
+    // {
+    //   resolve: `gatsby-source-filesystem`,
+    //   options: {
+    //     name: `yazi`,
+    //     path: `${__dirname}/yazi/`,
+    //   },
+    // },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,8 +27,8 @@ module.exports = {
     },
 
     "gatsby-plugin-mdx",
-    "gatsby-plugin-image",
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    // "gatsby-plugin-image",
+    // "gatsby-transformer-sharp",
+    // "gatsby-plugin-sharp",
   ],
 }

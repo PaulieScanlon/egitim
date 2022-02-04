@@ -12,14 +12,11 @@ const BlogPost = ({ data }) => {
   )
 }
 export const query = graphql`
-  query {
-    allMdx(filter: { fileAbsolutePath: { regex: "//blog//" } }) {
-      nodes {
-        fileAbsolutePath
-      }
+  query MyQuery($id: String) {
+    mdx(id: { eq: $id }) {
       frontmatter {
         title
-        date(formatString: "D MMMM YYYY", locale: "tr")
+        date(formatString: " D MMMM YYYY", locale: "tr")
       }
       body
     }

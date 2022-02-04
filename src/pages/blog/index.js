@@ -5,7 +5,7 @@ import Layout from "../../components/layout"
 const BlogPage = ({ data }) => {
   return (
     <Layout pageTitle="Computer öğrenebilirsiniz">
-      {data.allFile.nodes.map((node) => (
+      {data.allMdx.nodes.map((node) => (
         <article key={node.id}>
           <h2>
             <Link to={`/blog/${node.slug}`}>{node.frontmatter.title}</Link>
@@ -17,12 +17,11 @@ const BlogPage = ({ data }) => {
   )
 }
 export const query = graphql`
-  query MyQuery2 {
-    allFile(filter: { sourceInstanceName: { eq: "blog" } }) {
+  query {
+    allMdx {
       edges {
         node {
           id
-          name
         }
       }
     }
