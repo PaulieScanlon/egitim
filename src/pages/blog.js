@@ -18,7 +18,7 @@ const Page = ({
           } = post;
           return (
             <li key={index}>
-              <Link to={`/content/blog/${slug}`}>{title}</Link>
+              <Link to={`/blog/${slug}`}>{title}</Link>
             </li>
           );
         })}

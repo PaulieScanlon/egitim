@@ -1,8 +1,8 @@
 import React, { Fragment } from 'react';
 import { graphql, Link } from 'gatsby';
 
-import YaziTemplate from '../../../templates/yazi-template';
-import BlogTemplate from '../../../templates/blog-template';
+import YaziTemplate from '../../templates/yazi-template';
+import BlogTemplate from '../../templates/blog-template';
 
 const MdxPage = ({
   data,
