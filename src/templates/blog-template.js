@@ -1,15 +1,15 @@
-import React from "react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import { MDXProvider } from "@mdx-js/react"
-import Layout from "./../../components/layout"
+import React from 'react';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { MDXProvider } from '@mdx-js/react';
+import Layout from '../components/layout';
 
 const BlogTemplate = ({
   data: {
     mdx: {
       frontmatter: { title, variant },
-      body,
-    },
-  },
+      body
+    }
+  }
 }) => {
   return (
     <Layout>
@@ -19,7 +19,7 @@ const BlogTemplate = ({
         <MDXRenderer>{body}</MDXRenderer>
       </MDXProvider>
     </Layout>
-  )
-}
+  );
+};
 
-export default BlogTemplate
+export default BlogTemplate;

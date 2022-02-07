@@ -1,15 +1,15 @@
-import React from "react"
-import { MDXRenderer } from "gatsby-plugin-mdx"
-import { MDXProvider } from "@mdx-js/react"
-import Layout from "./../../components/layout"
+import React from 'react';
+import { MDXRenderer } from 'gatsby-plugin-mdx';
+import { MDXProvider } from '@mdx-js/react';
+import Layout from '../components/layout';
 
 const YaziTemplate = ({
   data: {
     mdx: {
       frontmatter: { title, variant, tags },
-      body,
-    },
-  },
+      body
+    }
+  }
 }) => {
   return (
     <Layout>
@@ -19,7 +19,7 @@ const YaziTemplate = ({
         tags
         {tags
           ? tags.map((tag, index) => {
-              return <li key={index}>{tag}</li>
+              return <li key={index}>{tag}</li>;
             })
           : null}
       </ul>
@@ -27,7 +27,7 @@ const YaziTemplate = ({
         <MDXRenderer>{body}</MDXRenderer>
       </MDXProvider>
     </Layout>
-  )
-}
+  );
+};
 
-export default YaziTemplate
+export default YaziTemplate;
